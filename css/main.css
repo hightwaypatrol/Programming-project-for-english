@@ -1,0 +1,328 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapperhead {
+    border-bottom: 10px solid black;
+    background: #ffffff;
+    margin-top: 20px;
+}
+.wrapper {
+    margin-top: 0px;
+    background-image: url(/img/синий1488.svg);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul button li {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul button li a {
+    color: #FFFFFF;
+}
+
+
+
+.button {/* логотип */
+    margin-left: 6em;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    color: #160D68;
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+}
+  
+.button span:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    transform: scale(1.2);
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.material {            /*справочный материал*/
+    margin-left: -2em;
+    margin-top: 0.5em;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.material li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.material li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.material:hover li {
+    padding-right: 25px;
+}
+  
+.material:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.material li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.material li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.material:hover li {
+    padding-right: 25px;
+}
+  
+.material:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.author {                       /*автор*/
+    margin-left: 0em;
+    margin-top: 0.5em;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.author li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.author li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.author:hover li {
+    padding-right: 25px;
+}
+  
+.author:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.contacts {                /*контакты*/
+    margin-left: 0em;
+    margin-top: 0.5em;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.contacts li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+    z-index: 5;
+}
+  
+.contacts li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.contacts:hover li {
+    padding-right: 25px;
+}
+  
+.contacts:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.hero {
+    padding-bottom: 0px;
+}
+
+.hero .info h1 {       /*героин*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 130px;
+    font-size: 40pt;
+    color: #ffffff;
+}
+
+.hero .info p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    margin-left: 120px;
+    font-size: 16pt;
+    margin-top: 18px;
+    line-height: 1em;
+    width: 600px;
+}
+
+.hero .heroimg img {
+    z-index: 4;
+    position: relative;
+    width: 600px;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+}
+.start a {
+    color: #15394A;
+}
+.start {                       /*старт*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: #FFF49F;
+    border: none;
+    color: #15394A;
+    text-align: center;
+    font-size: 24pt;
+    padding: 10px;
+    width: 250px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.start li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.start li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.start:hover li {
+    padding-right: 25px;
+}
+  
+.start:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.whiteplace {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30pt;
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    justify-content: end;
+}

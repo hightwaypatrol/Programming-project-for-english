@@ -96,6 +96,7 @@ header nav ul button li a {
 
 
 .material {            /*справочный материал*/
+    letter-spacing: -0.03em;
     margin-left: -2em;
     margin-top: 0.5em;
     border-radius: 100px;
@@ -162,6 +163,7 @@ header nav ul button li a {
 }
 
 .author {                       /*автор*/
+    letter-spacing: -0.03em;
     margin-left: 0em;
     margin-top: 0.5em;
     border-radius: 100px;
@@ -203,6 +205,7 @@ header nav ul button li a {
 }
 
 .contacts {                /*контакты*/
+    letter-spacing: -0.03em;
     margin-left: 0em;
     margin-top: 0.5em;
     border-radius: 100px;
@@ -249,6 +252,7 @@ header nav ul button li a {
 
 .hero .info h1 {       /*героин*/
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.03em;
     margin-left: 120px;
     margin-top: 130px;
     font-size: 40pt;
@@ -257,6 +261,7 @@ header nav ul button li a {
 
 .hero .info p {
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.03em;
     color: #FFFFFF;
     margin-left: 120px;
     font-size: 16pt;
@@ -278,6 +283,7 @@ header nav ul button li a {
 }
 .start {                       /*старт*/
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.02em;
     margin-left: 120px;
     margin-top: 90px;
     border-radius: 10px;
@@ -319,9 +325,10 @@ header nav ul button li a {
 }
 
 .whiteplace {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     margin-right: 50px;
+    letter-spacing: -0.02em;
     color: white;
     display: flex;
     justify-content: end;

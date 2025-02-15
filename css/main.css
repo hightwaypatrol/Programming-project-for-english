@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    width: 1366px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ header nav ul button li a {
 
 
 .button {/* логотип */
-    margin-left: 6em;
+    margin-left: 2.5%;
     border-radius: 4px;
     background: none;
     border: none;
@@ -97,16 +97,16 @@ header nav ul button li a {
 
 .material {            /*справочный материал*/
     letter-spacing: -0.03em;
-    margin-left: -2em;
-    margin-top: 0.5em;
+    margin-left: 15%;
+    margin-top: 0.366%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -137,43 +137,18 @@ header nav ul button li a {
     right: 0;
 }
 
-.material li {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.3s;
-}
-  
-.material li:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.3s;
-}
-  
-.material:hover li {
-    padding-right: 25px;
-}
-  
-.material:hover li:after {
-    opacity: 1;
-    right: 0;
-}
-
 .author {                       /*автор*/
     letter-spacing: -0.03em;
-    margin-left: 0em;
-    margin-top: 0.5em;
+    margin-left: 0;
+    margin-top: -1.464%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -206,16 +181,16 @@ header nav ul button li a {
 
 .contacts {                /*контакты*/
     letter-spacing: -0.03em;
-    margin-left: 0em;
-    margin-top: 0.5em;
+    margin-left: 0;
+    margin-top: -1.464%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -252,9 +227,12 @@ header nav ul button li a {
 
 .hero .info h1 {       /*героин*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    z-index: 5;
     letter-spacing: -0.03em;
-    margin-left: 120px;
-    margin-top: 130px;
+    margin-left: 6%;
+    margin-top: 9.517%;
     font-size: 40pt;
     color: #ffffff;
 }
@@ -262,38 +240,42 @@ header nav ul button li a {
 .hero .info p {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.03em;
+    font-weight: 500;
+    position: relative;
+    z-index: 5;
     color: #FFFFFF;
-    margin-left: 120px;
+    margin-left: 6%;
+    margin-top: 1.318%;
     font-size: 16pt;
-    margin-top: 18px;
     line-height: 1em;
-    width: 600px;
+    width: 43.924%;
 }
 
 .hero .heroimg img {
     z-index: 4;
     position: relative;
-    width: 600px;
+    width: 650px;
     position: absolute;
-    top: 10%;
+    top: 0%;
     right: 8%;
 }
 .start a {
-    color: #15394A;
+    color: #004ef5;
 }
 .start {                       /*старт*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
     letter-spacing: -0.02em;
-    margin-left: 120px;
-    margin-top: 90px;
+    margin-left: 6%;
+    margin-top: 5.4%;
     border-radius: 10px;
-    background-color: #FFF49F;
+    background-color: #FF8000;
     border: none;
-    color: #15394A;
+    color: #004ef5;
     text-align: center;
     font-size: 24pt;
     padding: 10px;
-    width: 250px;
+    width: 18.302%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -324,12 +306,314 @@ header nav ul button li a {
     right: 0;
 }
 
+
+
 .whiteplace {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: -1.464%;
     font-size: 30pt;
-    margin-right: 50px;
+    z-index: 5;
+    position: relative;
+    margin-right: 5%;
     letter-spacing: -0.02em;
     color: white;
     display: flex;
     justify-content: end;
+}
+
+
+
+
+header .heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: white;
+    font-size: 40pt;
+    margin-top: 8.333%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .navigation a {
+    color: white;
+}
+
+header .navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+header .navigation a {
+    display: inline-block;
+}
+
+.navigation a:hover:not(.active) {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.active {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.langinfo {
+    background: #FFFFFF;
+    padding-top: 12%;
+}
+
+.langinfo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    font-size: 30pt;
+    position: relative;
+    z-index: 5;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.langinfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+}
+
+.langinfo a{
+    font-weight: 800;
+    color: #FF8000;
+}
+
+.langinfo .cimg img {
+    z-index: 4;
+    position: relative;
+    width: 1050px;
+    position: absolute;
+    top: 75%;
+    right: 0%;
+}
+.langinfoc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.03em;
+    margin-top: 10%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+}
+.langinfoc ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.langinfoc ul {
+    margin-bottom: 2%;
+}
+.langinfoc ul li a{
+    font-weight: 800;
+    color: #FF8000;
+}
+
+.langinfoc .guideforc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+.langinfoc .guideforc h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 500;
+    margin-left: 10%;
+}
+.langinfoc .guideforc h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+}
+.langinfoc .guideforc h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.langinfoc .guideforc ul li a{
+    color: #FF8000;
+}
+.langinfoc .guideforc ul {
+    margin-bottom: 0%;
+}
+.langinfoc .guideforc ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    position: relative;
+    z-index: 5;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
+    list-style: none !important;
+    list-style-position: inside;
+}
+
+.langinfoc .memc img {
+    z-index: 4;
+    position: relative;
+    position: absolute;
+    width: 1000px;
+    left: 15%;
+    top: 260%;
+}
+.langinfo .guideforc {
+    padding-bottom: 470px;
+}
+
+.htmlcss {
+    background-image: url(/img/adsyhufyhiasiyhfhuia.svg);
+}
+
+.htmlcss img{
+    position: relative;
+    position: absolute;
+    right: 2%;
+    top: 335%;
+    width: 650px;
+}
+.htmlcss h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.03em;
+    padding-top: 12%;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: white;
+    margin-left: 10%;
+}
+
+.htmlcss p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+}
+
+.htmlcss p a{
+    font-weight: 800 !important;
+    color: #FF8000;
+}
+
+.htmlcss h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: white;
+    margin-left: 10%;
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
+}
+
+
+.infohtml h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: white;
+    margin-left: 10%;
+}
+
+.infohtml ul li a{
+    font-weight: 800;
+    color: #FF8000;
+}
+
+.infohtml ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    padding-bottom: 12%;
+    width: 1100px;
+    text-align: justify;
+}
+
+.linux {
+    background: white;
+    padding-top: 12%;
+}
+
+.linux h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: black;
+    margin-left: 10%;
 }

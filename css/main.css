@@ -6,18 +6,8 @@ p {
     font-weight: 500 !important;
     font-size: 20pt;
 }
-
 h1 {
-    font-weight: 800;
-}
-h2 {
-    font-weight: 800;
-}
-h3 {
-    font-weight: 800;
-}
-h4 {
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 
 .wrapperhead {
@@ -26,7 +16,6 @@ h4 {
     margin-top: 20px;
 }
 .wrapper {
-    margin-top: 0px;
     background-image: url(/img/синий1488.svg);
     width: 100%;
 }
@@ -40,7 +29,8 @@ img {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1920px;
+    min-width: 640px;
     margin: 0 auto;
 }
 
@@ -386,6 +376,8 @@ header .navigation a {
 .langinfo {
     background: #FFFFFF;
     padding-top: 12%;
+    max-width: 1920;
+    min-width: 640;
 }
 
 .langinfo h1 {
@@ -422,7 +414,7 @@ header .navigation a {
     position: relative;
     width: 1050px;
     position: absolute;
-    top: 75%;
+    top: 80%;
     right: 6%;
 }
 .langinfoc h1 {
@@ -525,24 +517,30 @@ header .navigation a {
     position: absolute;
     width: 900px;
     left: 20%;
-    top: 260%;
+    top: 280%;
+    border: 10px solid black;
 }
 .langinfo .guideforc {
     padding-bottom: 470px;
 }
 
 .htmlcss {
+    max-width: 1920px;
+    min-width: 640px;
     background: #FFFFFF;
 }
 
 .htmlcss img{
     position: relative;
+    z-index: 4;
     position: absolute;
-    right: 9%;
-    top: 355%;
+    left: 7%;
+    top: 360%;
     width: 500px;
 }
 .htmlcss h1 {
+    position: relative;
+    z-index: 5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     letter-spacing: -0.03em;
@@ -550,16 +548,18 @@ header .navigation a {
     padding-bottom: 1%;
     font-weight: 800;
     color: rgb(0, 0, 0);
-    margin-left: 12%;
+    margin-left: 40%;
 }
 
 .htmlcss p {
+    position: relative;
+    z-index: 5;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 20pt;
     letter-spacing: -0.03em;
     font-weight: 500;
-    margin-left: 12%;
+    margin-left: 42%;
     width: 600px;
     text-align: justify;
 }
@@ -570,9 +570,11 @@ header .navigation a {
 }
 
 .htmlcss h2 {
+    position: relative;
+    z-index: 5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    padding-top: 2%;
+    padding-top: 0%;
     letter-spacing: -0.03em;
     padding-bottom: 1%;
     font-weight: 800;
@@ -581,6 +583,8 @@ header .navigation a {
 }
 
 #p2 {
+    position: relative;
+    z-index: 5;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 20pt;
@@ -595,7 +599,7 @@ header .navigation a {
 .infohtml h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    padding-top: 2%;
+    padding-top: 1%;
     letter-spacing: -0.03em;
     padding-bottom: 0;
     font-weight: 600;
@@ -621,8 +625,9 @@ header .navigation a {
 }
 
 .linux {
+    max-width: 1920px;
+    min-width: 640px;
     background: white;
-    padding-top: 12%;
 }
 
 .linux h1 {
@@ -631,9 +636,77 @@ header .navigation a {
     padding-top: 2%;
     letter-spacing: -0.03em;
     padding-bottom: 0;
-    font-weight: 600;
+    font-weight: 800;
     color: black;
     margin-left: 12%;
 }
 
+.linux p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-top: 0%;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: black;
+    width: 1000px;
+    margin-left: 12%;
+    text-align: justify;
+}
 
+.linux .bash img {
+    border: 5px solid black;
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 400px;
+    right: 17%;
+    top: 500%;
+}
+
+.linux .linuximg img {
+    border: 5px solid black;
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 326px;
+    right: 60%;
+    top: 500%;
+}
+
+#notsosal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 30%;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: black;
+    width: 1000px;
+    margin-left: 12%;
+    text-align: justify;
+}
+
+.linux h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: black;
+    margin-left: 12%;
+    width: 500px;
+}
+
+.linux ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 12%;
+    width: 500px;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}

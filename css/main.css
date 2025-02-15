@@ -9,7 +9,7 @@
 }
 .wrapper {
     margin-top: 0px;
-    background-image: url(/img/синий1488.svg);
+    background: #00128A;
     width: 100%;
 }
 
@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    width: 1366px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ header nav ul button li a {
 
 
 .button {/* логотип */
-    margin-left: 6em;
+    margin-left: 2.5%;
     border-radius: 4px;
     background: none;
     border: none;
@@ -97,16 +97,16 @@ header nav ul button li a {
 
 .material {            /*справочный материал*/
     letter-spacing: -0.03em;
-    margin-left: -2em;
-    margin-top: 0.5em;
+    margin-left: 15%;
+    margin-top: 0.366%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -137,43 +137,18 @@ header nav ul button li a {
     right: 0;
 }
 
-.material li {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.3s;
-}
-  
-.material li:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.3s;
-}
-  
-.material:hover li {
-    padding-right: 25px;
-}
-  
-.material:hover li:after {
-    opacity: 1;
-    right: 0;
-}
-
 .author {                       /*автор*/
     letter-spacing: -0.03em;
-    margin-left: 0em;
-    margin-top: 0.5em;
+    margin-left: 0;
+    margin-top: -1.464%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -206,16 +181,16 @@ header nav ul button li a {
 
 .contacts {                /*контакты*/
     letter-spacing: -0.03em;
-    margin-left: 0em;
-    margin-top: 0.5em;
+    margin-left: 0;
+    margin-top: -1.464%;
     border-radius: 100px;
     background-color: #000000;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18pt;
-    padding: 5px;
-    width: 200px;
+    padding: 0.366%;
+    width: 25%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -252,9 +227,12 @@ header nav ul button li a {
 
 .hero .info h1 {       /*героин*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    z-index: 5;
     letter-spacing: -0.03em;
-    margin-left: 120px;
-    margin-top: 130px;
+    margin-left: 6%;
+    margin-top: 9.517%;
     font-size: 40pt;
     color: #ffffff;
 }
@@ -262,38 +240,41 @@ header nav ul button li a {
 .hero .info p {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.03em;
+    position: relative;
+    z-index: 5;
     color: #FFFFFF;
-    margin-left: 120px;
+    margin-left: 6%;
+    margin-top: 1.318%;
     font-size: 16pt;
-    margin-top: 18px;
     line-height: 1em;
-    width: 600px;
+    width: 43.924%;
 }
 
 .hero .heroimg img {
     z-index: 4;
     position: relative;
-    width: 600px;
+    width: 650px;
     position: absolute;
-    top: 10%;
+    top: 0%;
     right: 8%;
 }
 .start a {
-    color: #15394A;
+    color: #0022FF;
 }
 .start {                       /*старт*/
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     letter-spacing: -0.02em;
-    margin-left: 120px;
-    margin-top: 90px;
+    margin-left: 6%;
+    margin-top: 6%;
     border-radius: 10px;
-    background-color: #FFF49F;
+    background-color: #FF8000;
     border: none;
-    color: #15394A;
+    color: #0022FF;
     text-align: center;
     font-size: 24pt;
     padding: 10px;
-    width: 250px;
+    width: 18.302%;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -326,10 +307,109 @@ header nav ul button li a {
 
 .whiteplace {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: -1.464%;
     font-size: 30pt;
-    margin-right: 50px;
+    z-index: 5;
+    position: relative;
+    margin-right: 5%;
     letter-spacing: -0.02em;
     color: white;
     display: flex;
     justify-content: end;
+}
+
+
+header .heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    color: white;
+    font-size: 40pt;
+    margin-top: 8.333%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .navigation a {
+    color: white;
+}
+
+header .navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+header .navigation a {
+    display: inline-block;
+}
+
+.navigation a:hover:not(.active) {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.active {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.langinfo {
+    background: #FFFFFF;
+    padding-top: 11.667%;
+}
+
+.langinfo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    position: relative;
+    z-index: 5;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.langinfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-top: 4.167%;
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+}
+
+.langinfo .cimg img {
+    z-index: 4;
+    position: relative;
+    width: 1050px;
+    position: absolute;
+    top: 82%;
+    right: 0%;
+}
+.langinfoc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    margin-top: 5.833%;
+    position: relative;
+    z-index: 5;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.langinfoc p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-top: 4.167%;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
 }

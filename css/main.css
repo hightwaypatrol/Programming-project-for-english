@@ -1,5 +1,23 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+p {
+    font-weight: 500 !important;
+    font-size: 20pt;
+}
+
+h1 {
+    font-weight: 800;
+}
+h2 {
+    font-weight: 800;
+}
+h3 {
+    font-weight: 800;
+}
+h4 {
+    font-weight: 800;
 }
 
 .wrapperhead {
@@ -48,7 +66,7 @@ header nav ul button li a {
 
 
 .button {/* логотип */
-    margin-left: 2.5%;
+    margin-left: 5%;
     border-radius: 4px;
     background: none;
     border: none;
@@ -97,7 +115,7 @@ header nav ul button li a {
 
 .material {            /*справочный материал*/
     letter-spacing: -0.03em;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 0.366%;
     border-radius: 100px;
     background-color: #000000;
@@ -231,7 +249,7 @@ header nav ul button li a {
     position: relative;
     z-index: 5;
     letter-spacing: -0.03em;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-top: 9.517%;
     font-size: 40pt;
     color: #ffffff;
@@ -244,7 +262,7 @@ header nav ul button li a {
     position: relative;
     z-index: 5;
     color: #FFFFFF;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-top: 1.318%;
     font-size: 16pt;
     line-height: 1em;
@@ -257,16 +275,16 @@ header nav ul button li a {
     width: 650px;
     position: absolute;
     top: 0%;
-    right: 8%;
+    right: 11%;
 }
 .start a {
     color: #004ef5;
 }
 .start {                       /*старт*/
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 800 !important;
     letter-spacing: -0.02em;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-top: 5.4%;
     border-radius: 10px;
     background-color: #FF8000;
@@ -315,7 +333,7 @@ header nav ul button li a {
     font-size: 30pt;
     z-index: 5;
     position: relative;
-    margin-right: 5%;
+    margin-right: 9%;
     letter-spacing: -0.02em;
     color: white;
     display: flex;
@@ -378,7 +396,7 @@ header .navigation a {
     position: relative;
     z-index: 5;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .langinfo p {
@@ -388,9 +406,9 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-top: 1%;
-    margin-left: 10%;
-    width: 600px;
+    margin-top: 0%;
+    margin-left: 12%;
+    width: 500px;
     text-align: justify;
 }
 
@@ -405,17 +423,17 @@ header .navigation a {
     width: 1050px;
     position: absolute;
     top: 75%;
-    right: 0%;
+    right: 6%;
 }
 .langinfoc h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     letter-spacing: -0.03em;
-    margin-top: 10%;
+    margin-top: 4%;
     position: relative;
     z-index: 5;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .langinfoc ul li {
     font-family: Arial, Helvetica, sans-serif;
@@ -424,8 +442,8 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-left: 10%;
-    width: 1100px;
+    margin-left: 12%;
+    width: 1010px;
     text-align: justify;
     list-style: disc;
     list-style-position: inside;
@@ -447,7 +465,7 @@ header .navigation a {
     position: relative;
     z-index: 5;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-bottom: 0%;
 }
 .langinfoc .guideforc h2 {
@@ -458,7 +476,7 @@ header .navigation a {
     position: relative;
     z-index: 5;
     font-weight: 500;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .langinfoc .guideforc h3 {
     font-family: Arial, Helvetica, sans-serif;
@@ -468,7 +486,7 @@ header .navigation a {
     position: relative;
     z-index: 5;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .langinfoc .guideforc h4 {
     font-family: Arial, Helvetica, sans-serif;
@@ -478,7 +496,7 @@ header .navigation a {
     position: relative;
     z-index: 5;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .langinfoc .guideforc ul li a{
@@ -494,7 +512,7 @@ header .navigation a {
     letter-spacing: -0.03em;
     position: relative;
     z-index: 5;
-    margin-left: 10%;
+    margin-left: 12%;
     width: 1100px;
     text-align: justify;
     list-style: none !important;
@@ -505,8 +523,8 @@ header .navigation a {
     z-index: 4;
     position: relative;
     position: absolute;
-    width: 1000px;
-    left: 15%;
+    width: 900px;
+    left: 20%;
     top: 260%;
 }
 .langinfo .guideforc {
@@ -514,15 +532,15 @@ header .navigation a {
 }
 
 .htmlcss {
-    background-image: url(/img/adsyhufyhiasiyhfhuia.svg);
+    background: #FFFFFF;
 }
 
 .htmlcss img{
     position: relative;
     position: absolute;
-    right: 2%;
-    top: 335%;
-    width: 650px;
+    right: 9%;
+    top: 355%;
+    width: 500px;
 }
 .htmlcss h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -531,17 +549,17 @@ header .navigation a {
     padding-top: 12%;
     padding-bottom: 1%;
     font-weight: 800;
-    color: white;
-    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    margin-left: 12%;
 }
 
 .htmlcss p {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20pt;
     letter-spacing: -0.03em;
     font-weight: 500;
-    margin-left: 10%;
+    margin-left: 12%;
     width: 600px;
     text-align: justify;
 }
@@ -558,18 +576,18 @@ header .navigation a {
     letter-spacing: -0.03em;
     padding-bottom: 1%;
     font-weight: 800;
-    color: white;
-    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    margin-left: 12%;
 }
 
 #p2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20pt;
     letter-spacing: -0.03em;
     font-weight: 500;
-    margin-left: 10%;
-    width: 1100px;
+    margin-left: 12%;
+    width: 1000px;
     text-align: justify;
 }
 
@@ -581,8 +599,8 @@ header .navigation a {
     letter-spacing: -0.03em;
     padding-bottom: 0;
     font-weight: 600;
-    color: white;
-    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    margin-left: 12%;
 }
 
 .infohtml ul li a{
@@ -592,12 +610,12 @@ header .navigation a {
 
 .infohtml ul li {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20pt;
     letter-spacing: -0.03em;
     font-weight: 500;
-    margin-left: 10%;
-    padding-bottom: 12%;
+    margin-left: 12%;
+    padding-bottom: 10%;
     width: 1100px;
     text-align: justify;
 }
@@ -615,5 +633,7 @@ header .navigation a {
     padding-bottom: 0;
     font-weight: 600;
     color: black;
-    margin-left: 10%;
+    margin-left: 12%;
 }
+
+

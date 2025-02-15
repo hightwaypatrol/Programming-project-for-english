@@ -9,7 +9,7 @@
 }
 .wrapper {
     margin-top: 0px;
-    background: #00128A;
+    background-image: url(/img/синий1488.svg);
     width: 100%;
 }
 
@@ -227,7 +227,7 @@ header nav ul button li a {
 
 .hero .info h1 {       /*героин*/
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     position: relative;
     z-index: 5;
     letter-spacing: -0.03em;
@@ -240,6 +240,7 @@ header nav ul button li a {
 .hero .info p {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.03em;
+    font-weight: 500;
     position: relative;
     z-index: 5;
     color: #FFFFFF;
@@ -259,18 +260,18 @@ header nav ul button li a {
     right: 8%;
 }
 .start a {
-    color: #0022FF;
+    color: #004ef5;
 }
 .start {                       /*старт*/
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: -0.02em;
     margin-left: 6%;
-    margin-top: 6%;
+    margin-top: 5.4%;
     border-radius: 10px;
     background-color: #FF8000;
     border: none;
-    color: #0022FF;
+    color: #004ef5;
     text-align: center;
     font-size: 24pt;
     padding: 10px;
@@ -305,9 +306,11 @@ header nav ul button li a {
     right: 0;
 }
 
+
+
 .whiteplace {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     margin-top: -1.464%;
     font-size: 30pt;
     z-index: 5;
@@ -320,9 +323,11 @@ header nav ul button li a {
 }
 
 
+
+
 header .heading h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: -0.03em;
     color: white;
     font-size: 40pt;
@@ -362,11 +367,13 @@ header .navigation a {
 }
 .langinfo {
     background: #FFFFFF;
-    padding-top: 11.667%;
+    padding-top: 12%;
 }
 
 .langinfo h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
     font-size: 30pt;
     position: relative;
     z-index: 5;
@@ -376,13 +383,20 @@ header .navigation a {
 
 .langinfo p {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-top: 4.167%;
+    margin-top: 1%;
     margin-left: 10%;
     width: 600px;
     text-align: justify;
+}
+
+.langinfo a{
+    font-weight: 800;
+    color: #FF8000;
 }
 
 .langinfo .cimg img {
@@ -390,26 +404,216 @@ header .navigation a {
     position: relative;
     width: 1050px;
     position: absolute;
-    top: 82%;
+    top: 75%;
     right: 0%;
 }
 .langinfoc h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    margin-top: 5.833%;
+    letter-spacing: -0.03em;
+    margin-top: 10%;
     position: relative;
     z-index: 5;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 10%;
 }
-.langinfoc p {
+.langinfoc ul li {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+    letter-spacing: -0.03em;
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-top: 4.167%;
     margin-left: 10%;
     width: 1100px;
     text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.langinfoc ul {
+    margin-bottom: 2%;
+}
+.langinfoc ul li a{
+    font-weight: 800;
+    color: #FF8000;
+}
+
+.langinfoc .guideforc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+.langinfoc .guideforc h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 500;
+    margin-left: 10%;
+}
+.langinfoc .guideforc h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+}
+.langinfoc .guideforc h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.03em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.langinfoc .guideforc ul li a{
+    color: #FF8000;
+}
+.langinfoc .guideforc ul {
+    margin-bottom: 0%;
+}
+.langinfoc .guideforc ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    position: relative;
+    z-index: 5;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
+    list-style: none !important;
+    list-style-position: inside;
+}
+
+.langinfoc .memc img {
+    z-index: 4;
+    position: relative;
+    position: absolute;
+    width: 1000px;
+    left: 15%;
+    top: 260%;
+}
+.langinfo .guideforc {
+    padding-bottom: 470px;
+}
+
+.htmlcss {
+    background-image: url(/img/adsyhufyhiasiyhfhuia.svg);
+}
+
+.htmlcss img{
+    position: relative;
+    position: absolute;
+    right: 2%;
+    top: 335%;
+    width: 650px;
+}
+.htmlcss h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.03em;
+    padding-top: 12%;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: white;
+    margin-left: 10%;
+}
+
+.htmlcss p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+}
+
+.htmlcss p a{
+    font-weight: 800 !important;
+    color: #FF8000;
+}
+
+.htmlcss h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: white;
+    margin-left: 10%;
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    width: 1100px;
+    text-align: justify;
+}
+
+
+.infohtml h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: white;
+    margin-left: 10%;
+}
+
+.infohtml ul li a{
+    font-weight: 800;
+    color: #FF8000;
+}
+
+.infohtml ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin-left: 10%;
+    padding-bottom: 12%;
+    width: 1100px;
+    text-align: justify;
+}
+
+.linux {
+    background: white;
+    padding-top: 12%;
+}
+
+.linux h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    letter-spacing: -0.03em;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: black;
+    margin-left: 10%;
 }

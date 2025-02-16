@@ -1,3 +1,4 @@
+
 * {
     font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -25,12 +26,11 @@ a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 .container {
-    max-width: 1920px;
-    min-width: 640px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -376,8 +376,7 @@ header .navigation a {
 .langinfo {
     background: #FFFFFF;
     padding-top: 12%;
-    max-width: 1920;
-    min-width: 640;
+    max-width: 100%;
 }
 
 .langinfo h1 {
@@ -400,7 +399,7 @@ header .navigation a {
     z-index: 5;
     margin-top: 0%;
     margin-left: 12%;
-    width: 500px;
+    width: 300px;
     text-align: justify;
 }
 
@@ -412,10 +411,10 @@ header .navigation a {
 .langinfo .cimg img {
     z-index: 4;
     position: relative;
-    width: 1050px;
+    width: 1200px;
     position: absolute;
-    top: 80%;
-    right: 6%;
+    top: 95%;
+    right: 15%;
 }
 .langinfoc h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -525,8 +524,7 @@ header .navigation a {
 }
 
 .htmlcss {
-    max-width: 1920px;
-    min-width: 640px;
+    max-width: 100%;
     background: #FFFFFF;
 }
 
@@ -625,8 +623,7 @@ header .navigation a {
 }
 
 .linux {
-    max-width: 1920px;
-    min-width: 640px;
+    max-width: 100%;
     background: white;
 }
 

@@ -1,0 +1,1019 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+p {
+    font-weight: 600 !important;
+    font-size: 20pt;
+}
+
+h1 {
+    font-weight: 800 !important;
+}
+
+.wrapperhead {
+    border-bottom: 10px solid black;
+    background: #ffffff;
+    margin-top: 20px;
+}
+.wrapper {
+    background-image:url(/настоящийсиний.svg);
+    width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0990ff !important;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul button li {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul button li a {
+    color: #FFFFFF !important;
+}
+
+
+
+.button {/* логотип */
+    margin-left: 5%;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    color: #160D68;
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+}
+  
+.button span:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    transform: scale(1.2);
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.material {            /*справочный материал*/
+    letter-spacing: -0.03em;
+    margin-left: 5%;
+    margin-top: 0.366%;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 0.366%;
+    width: 25%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.material li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.material li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.material:hover li {
+    padding-right: 25px;
+}
+  
+.material:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.author {                       /*автор*/
+    letter-spacing: -0.03em;
+    margin-left: 0;
+    margin-top: -1.464%;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 0.366%;
+    width: 25%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.author li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.author li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.author:hover li {
+    padding-right: 25px;
+}
+  
+.author:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.contacts {                /*контакты*/
+    letter-spacing: -0.03em;
+    margin-left: 0;
+    margin-top: -1.464%;
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18pt;
+    padding: 0.366%;
+    width: 25%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.contacts li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+    z-index: 5;
+}
+  
+.contacts li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.contacts:hover li {
+    padding-right: 25px;
+}
+  
+.contacts:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+.hero {
+    padding-bottom: 0px;
+}
+
+.hero .info h1 {       /*героин*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    z-index: 5;
+    letter-spacing: -0.03em;
+    margin-left: 9%;
+    margin-top: 9.517%;
+    font-size: 40pt;
+    color: #ffffff;
+}
+
+.hero .info p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    position: relative;
+    z-index: 5;
+    color: #FFFFFF;
+    margin-left: 9%;
+    margin-top: 1.318%;
+    font-size: 16pt;
+    line-height: 1em;
+    width: 43.924%;
+}
+
+.hero .heroimg img {
+    z-index: 4;
+    position: relative;
+    width: 650px;
+    position: absolute;
+    top: 0%;
+    right: 6%;
+}
+.start a {
+    color: #304df1 !important;
+}
+.start {                       /*старт*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800 !important;
+    letter-spacing: -0.02em;
+    margin-left: 9%;
+    margin-top: 5.4%;
+    border-radius: 10px;
+    background-color: #FF8000;
+    border: none;
+    color: #304df1;
+    text-align: center;
+    font-size: 24pt;
+    padding: 10px;
+    width: 18.302%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+  
+.start li {
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+  
+.start li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+.start:hover li {
+    padding-right: 25px;
+}
+  
+.start:hover li:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+.whiteplace {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: -1.464%;
+    font-size: 30pt;
+    z-index: 5;
+    position: relative;
+    margin-right: 9%;
+    letter-spacing: -0.02em;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+header .heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: white;
+    font-size: 40pt;
+    margin-top: 8%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .navigation a {
+    color: white !important;
+}
+
+header .navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+header .navigation a {
+    display: inline-block;
+}
+
+.navigation a:hover:not(.active) {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.active {
+    border-bottom: 5px solid #FF8000;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.langinfo {
+    padding-top: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.langinfo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    font-size: 30pt;
+    position: relative;
+    width: 30%;
+    z-index: 5;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 35%;
+}
+
+.langinfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+}
+
+.langinfo a{
+    font-weight: 800;
+}
+
+.langinfo .cimg img {
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 50%;
+    left: 15%;
+}
+
+.langinfoc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 5%;
+    position: relative;
+    width: 18%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.langinfoc ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.langinfoc ul {
+    margin-bottom: 5%;
+}
+.langinfoc ul li a{
+    font-weight: 800;
+}
+
+.langinfoc .memc img {
+    z-index: 4;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    margin-bottom: 5%;
+}
+
+
+.langinfoc .guideforc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-bottom: 0%;
+}
+.langinfoc .guideforc h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 2%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.langinfoc .guideforc h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.langinfoc .guideforc h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+.langinfoc .guideforc ul {
+    margin-bottom: 0%;
+}
+
+.langinfoc .guideforc ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: none !important;
+    list-style-position: inside;
+}
+
+
+.langinfo .guideforc {
+    padding-bottom: 10%;
+}
+
+.htmlcss {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.htmlcss .besthtml img{
+    position: relative;
+    z-index: 4;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+}
+
+
+.htmlcss h1 {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    width: 100%;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+}
+
+.htmlcss p {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 15%;
+    margin-right: 3%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#htmlcol {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 3%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.htmlcss .columnhtml {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.htmlcss p a{
+    font-weight: 800 !important;
+}
+
+.htmlcss h2 {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 0%;
+    width: 30%;
+    letter-spacing: -0.05em;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+}
+
+#p2 {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+}
+
+
+.infohtml h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 1%;
+    letter-spacing: -0.05em;
+    padding-bottom: 1%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+}
+
+.infohtml ul li a{
+    font-weight: 800;
+}
+
+.infohtml ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+    width: 70%;
+    text-align: justify;
+}
+
+.linux {
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 50%;
+    padding-top: 10%;
+}
+
+.linux h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 9%;
+    letter-spacing: -0.05em;
+    padding-bottom: 2%;
+    width: 30%;
+    font-weight: 800;
+    color: black;
+    margin-left: 15%;
+}
+
+.linux p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-top: 0%;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.linux .bash img {
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 30%;
+    right: 15%;
+}
+
+.linux .linuximg img {
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 25%;
+    left: 15%;
+}
+
+#notsosal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 25%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+}
+
+.linux h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.linux ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.linux ul {
+    padding-bottom: 3%;
+}
+
+.linux .memlin img {
+    position: relative;
+    position: absolute;
+    z-index: 4;
+    width: 70%;
+    left: 15%;
+}
+
+
+
+.linux a {
+    color: #0990ff;
+    font-weight: 800 !important;
+}
+
+.python {
+    max-width: 100%;
+    padding-top: 20%;
+}
+.python .pythonimg img {
+    position: relative;
+    z-index: 4;
+    width: 50%;
+    left: 25%;
+}
+
+.python .pythoncolumn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.python h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 0%;
+    margin-bottom: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.python .pythoncolumn p {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 15%;
+    margin-right: 3%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#pythoncol {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 3%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+.python .montypython img {
+    position: relative;
+    z-index: 4;
+    width: 70%;
+    left: 15%;
+}
+
+.python h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 5%;
+    margin-bottom: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 70%;
+}
+.python ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.python ul {
+    padding-bottom: 15%;
+}
+
+.javascript .jsimg img {
+    position: relative;
+    z-index: 4;
+    width: 70%;
+    left: 15%;
+}
+
+.javascript h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 0%;
+    margin-bottom: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.javascript p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 0%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    margin-bottom: 0%;
+}
+
+.javascript .javaimg img {
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 30%;
+    left: 15%;
+}
+
+.javascript .netscapeimg img {
+    position: relative;
+    z-index: 4;
+    position: absolute;
+    width: 30%;
+    right: 15%;
+}
+
+.javascript .javainfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 28%;
+}
+
+.javascript .javainfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    width: 45%;
+    margin-right: 15%;
+    margin-left: 3%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+#javainfo100 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 2%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    width: 45%;
+    margin-right: 3%;
+    margin-left: 15%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.javascript .javameme img {
+    position: relative;
+    z-index: 4;
+    width: 70%;
+    left: 15%;
+}
+
+.javascript .javastudy h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.javascript .javastudy ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+    text-align: justify;
+    list-style: none;
+    list-style-position: inside;
+}
+.javascript .javastudy ul {
+    padding-bottom: 10%;
+}
+
+.end {
+    background-image: url(/настоящийсиний.svg);
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.end p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-size: 30pt;
+    z-index: 5;
+    position: relative;
+    margin-right: 9%;
+    letter-spacing: -0.02em;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-left: 10%;
+}
+
+.whitewrapper {
+    background: #FFFFFF;
+    max-width: 100%;
+}
+
+
+
+
+
+

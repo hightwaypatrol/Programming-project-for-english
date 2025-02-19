@@ -18,7 +18,7 @@ h1 {
     margin-top: 20px;
 }
 .wrapper {
-    background-image:url(/настоящийсиний.svg);
+    background-image:url(/img/настоящийсиний.svg);
     width: 100%;
     max-height: 100%;
 }
@@ -841,9 +841,9 @@ header .navigation a {
 }
 .python ul li{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 20pt;
+    font-weight: 600;
     letter-spacing: -0.05em;
+    font-size: 20pt;
     position: relative;
     z-index: 5;
     margin-left: 15%;
@@ -979,7 +979,7 @@ header .navigation a {
 }
 
 .end {
-    background-image: url(/настоящийсиний.svg);
+    background-image: url(/img/настоящийсиний.svg);
     max-width: 100%;
 }
 
@@ -1016,4 +1016,126 @@ header .navigation a {
 
 
 
+
+
+
+
+
+.codeeditors {
+    background: #FFFFFF;
+    max-width: 100%;
+}
+
+.codeeditors h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.codeeditors h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+.codeeditors .column p {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 15%;
+    margin-right: 3%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#columncode {
+    position: relative;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600 !important;
+    margin-left: 3%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.codeeditors ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    font-size: 20pt;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.codeeditors p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 1%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+
+.codeeditors .column {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
+}
+
+.codeeditors img {
+    position: relative;
+    z-index: 4;
+    width: 25%;
+    left: 37.5%;
+}
+
+.codeeditors .pycharm {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.codeeditors .vim {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.codeeditors .neovim {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.codeeditors .vscode {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 

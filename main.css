@@ -18,7 +18,7 @@ h1 {
     margin-top: 20px;
 }
 .wrapper {
-    background-image:url(/img/настоящийсиний.svg);
+    background-image:url(./img/настоящийсиний.svg);
     width: 100%;
     max-height: 100%;
 }
@@ -432,7 +432,7 @@ header .navigation a {
     width: 18%;
     z-index: 5;
     font-weight: 600;
-    margin-left: 15%;
+    margin-left: 11%;
 }
 .langinfoc ul li {
     font-family: Arial, Helvetica, sans-serif;
@@ -441,12 +441,20 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 70%;
+    float: left;
     text-align: justify;
     list-style: disc;
     list-style-position: inside;
+}
+
+.langinfoc ul {
+    margin-left: 9%;
+    margin-right: 14%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .langinfoc ul {
@@ -456,7 +464,7 @@ header .navigation a {
     font-weight: 800;
 }
 
-.langinfoc .memc img {
+.memc img {
     z-index: 4;
     position: relative;
     width: 70%;
@@ -465,7 +473,7 @@ header .navigation a {
 }
 
 
-.langinfoc .guideforc h1 {
+.guideforc h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     letter-spacing: -0.05em;
@@ -474,44 +482,47 @@ header .navigation a {
     z-index: 5;
     font-weight: 600;
     margin-left: 15%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
 }
-.langinfoc .guideforc h2 {
+.guideforc h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22pt;
     letter-spacing: -0.05em;
+    margin-top: 2%;
+    position: relative;
+    margin-bottom: 0%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.guideforc h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    margin-bottom: 0%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.guideforc h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-bottom: 0%;
     margin-top: 2%;
     position: relative;
     z-index: 5;
     font-weight: 600;
     margin-left: 15%;
 }
-.langinfoc .guideforc h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
-    letter-spacing: -0.05em;
-    margin-top: 0%;
-    position: relative;
-    z-index: 5;
-    font-weight: 600;
-    margin-left: 15%;
-}
-.langinfoc .guideforc h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
-    letter-spacing: -0.05em;
-    margin-top: 0%;
-    position: relative;
-    z-index: 5;
-    font-weight: 600;
-    margin-left: 15%;
-}
 
-.langinfoc .guideforc ul {
+.guideforc ul {
     margin-bottom: 0%;
 }
 
-.langinfoc .guideforc ul li{
+.guideforc ul li{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 20pt;
@@ -527,7 +538,7 @@ header .navigation a {
 }
 
 
-.langinfo .guideforc {
+.guideforc {
     padding-bottom: 10%;
 }
 
@@ -725,7 +736,7 @@ header .navigation a {
     letter-spacing: -0.05em;
     font-weight: 600;
     color: black;
-    margin-left: 15%;
+    margin-left: 14%;
     width: 45%;
 }
 
@@ -736,8 +747,8 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 70%;
     text-align: justify;
     list-style: disc;
@@ -745,7 +756,11 @@ header .navigation a {
 }
 
 .linux ul {
+    margin-left: 12%;
+    margin-right: 13%;
     padding-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .linux .memlin img {
@@ -979,7 +994,7 @@ header .navigation a {
 }
 
 .end {
-    background-image: url(/img/настоящийсиний.svg);
+    background-image: url(./img/настоящийсиний.svg);
     max-width: 100%;
 }
 

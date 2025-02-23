@@ -394,7 +394,7 @@ header .navigation a {
     font-weight: bold;
     margin-left: 15%;
     margin-bottom: 2%;
-    margin-top: 35%;
+    margin-top: 0%;
 }
 
 .langinfo p {
@@ -415,13 +415,28 @@ header .navigation a {
     font-weight: 800;
 }
 
-.langinfo .cimg img {
+.langinfo .cimg {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.langinfo .cimg .csosal img {
+    width: 70%;
     position: relative;
     z-index: 4;
-    position: absolute;
+    left: 0%;
+}
+
+
+.langinfo .cimg .denisritchie img {
     width: 50%;
+    position: relative;
+    z-index: 4;
     left: 15%;
 }
+
+
 
 .langinfoc h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -605,6 +620,28 @@ header .navigation a {
     justify-content: space-evenly;
 }
 
+.htmlcss .htmlcssauthor {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.htmlcss .htmlcssauthor .timbernes img {
+    width: 58.5%;
+    position: relative;
+    z-index: 4;
+    left: 29%;
+}
+
+
+.htmlcss .htmlcssauthor .hakon img {
+    width: 70%;
+    position: relative;
+    z-index: 4;
+    right: 0%;
+}
+
 .htmlcss p a{
     font-weight: 800 !important;
 }
@@ -637,11 +674,10 @@ header .navigation a {
     text-align: justify;
 }
 
-
-.infohtml h1{
+.infohtml h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    padding-top: 1%;
+    padding-top: 0%;
     letter-spacing: -0.05em;
     padding-bottom: 1%;
     font-weight: 600;
@@ -670,13 +706,35 @@ header .navigation a {
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 50%;
-    padding-top: 10%;
+    padding-top: 15%;
 }
+
+.linux .authorlin {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linux .authorlin .terminal img {
+    width: 60%;
+    position: relative;
+    z-index: 4;
+    left: 26%;
+}
+
+.linux .authorlin .linus img {
+    width: 50%;
+    position: relative;
+    z-index: 4;
+    left: 19%;
+}
+
 
 .linux h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
-    padding-top: 9%;
+    padding-top: 1%;
     letter-spacing: -0.05em;
     padding-bottom: 2%;
     width: 30%;
@@ -782,7 +840,7 @@ header .navigation a {
     max-width: 100%;
     padding-top: 20%;
 }
-.python .pythonimg img {
+.python img {
     position: relative;
     z-index: 4;
     width: 50%;
@@ -861,8 +919,8 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 70%;
     text-align: justify;
     list-style: disc;
@@ -870,7 +928,11 @@ header .navigation a {
 }
 
 .python ul {
+    display: flex;
+    justify-content: space-evenly;
     padding-bottom: 15%;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 
 .javascript .jsimg img {
@@ -1102,12 +1164,19 @@ header .navigation a {
     font-size: 20pt;
     position: relative;
     z-index: 5;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 70%;
     text-align: justify;
     list-style: disc;
     list-style-position: inside;
+}
+
+.codeeditors ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 13.5%;
+    margin-right: 14%;
 }
 
 .codeeditors p {
@@ -1154,3 +1223,336 @@ header .navigation a {
     padding-bottom: 10%;
 }
 
+
+
+
+.infohtmlmat ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0%;
+    width: 70%;
+    text-align: justify;
+}
+.infohtmlmat h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    color: black;
+    margin-left: 15%;
+    width: 45%;
+}
+
+
+
+.guidec h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    padding-top: 15%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+.guidec h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 2%;
+    position: relative;
+    margin-bottom: 0%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.guidec h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    margin-bottom: 0%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.guidec h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    letter-spacing: -0.05em;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+.guidec ul {
+    margin-bottom: 0%;
+}
+
+.guidec ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    position: relative;
+    z-index: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: justify;
+    list-style: none !important;
+    list-style-position: inside;
+}
+
+
+.javastudyinfo ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+    width: 70%;
+    text-align: justify;
+}
+
+.javastudyinfo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 5%;
+    position: relative;
+    margin-bottom: 0%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+.authorinfo {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.authorinfo img {
+    margin-left: 35%;
+    position: relative;
+    z-index: 4;
+    width: 30%;
+}
+
+.authorinfo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 5%;
+    position: relative;
+    margin-bottom: 2%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 38.5%;
+}
+
+.lanEvol {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.lanEvol h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    z-index: 5;
+    width: 40%;
+    font-weight: 800;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.lanEvol h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -0.05em;
+    margin-top: 0%;
+    position: relative;
+    width: 50%;
+    z-index: 5;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+
+.lanEvol p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-top: 0%;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.lanEvol .B1950s .B1950sInfo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-top: 0%;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    width: 50%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.lanEvol .B1950s .B1950sImg img {
+    position: relative;
+    width: 70%;
+    left: 10%
+}
+
+.lanEvol .B1950s {
+    margin-left: 7%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .asm img{
+    padding-top: 10%;
+    position: relative;
+    width: 30%;
+    left: 35%
+}
+
+.lanEvol .fortran img {
+    padding-top: 0%;
+    position: relative;
+    width: 50%;
+    left: 15%
+}
+
+.lanEvol .backus img {
+    padding-top: 0%;
+    position: relative;
+    width: 55%;
+    left: 30%
+}
+
+.lanEvol .fortAndBuck {
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-left: 8%;
+    margin-right: 12%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .authorCAndPascal {
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .authorCAndPascal .denRit img {
+    position: relative;
+    z-index: 4;
+    width: 71.9%;
+    left: 24%;
+}
+
+.lanEvol .authorCAndPascal .niklausW  img {
+    position: relative;
+    z-index: 4;
+    width: 80%;
+    left: 10%;
+}
+
+.lanEvol .cAndPascalImg {
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .cAndPascalImg .cImg img {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    left: 20%;
+}
+
+.lanEvol .cAndPascalImg .pascalImg  img {
+    position: relative;
+    z-index: 4;
+    width: 55%;
+    left: 30%;
+}
+
+.lanEvol a {
+    color: #0990ff;
+    font-weight: 800 !important;
+}
+
+.lanEvol .cpp {
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .cpp .cppImg img {
+    position: relative;
+    z-index: 4;
+    width: 71.9%;
+    left: 0%;
+}
+
+.lanEvol .cpp .stroustrup  img {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    left: 0%;
+}
+
+.lanEvol .pythonLore {
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanEvol .pythonLore .pythonLorImg img {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    left: 10%;
+}
+
+.lanEvol .pythonLore .guidoVanRossum  img {
+    position: relative;
+    z-index: 4;
+    width: 50%;
+    left: 40%;
+}
